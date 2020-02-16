@@ -29,6 +29,7 @@ package Algorithm.chapter1.code;
 
 import Algorithm.common.In;
 import Algorithm.common.StdOut;
+import Algorithm.common.Stopwatch;
 
 /**
  *  The {@code ThreeSum} class provides static methods for counting

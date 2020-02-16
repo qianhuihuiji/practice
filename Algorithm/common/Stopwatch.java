@@ -11,9 +11,7 @@
  *
  ******************************************************************************/
 
-package Algorithm.chapter1.code;
-
-import Algorithm.common.StdOut;
+package Algorithm.common;
 
 /**
  *  The {@code Stopwatch} data type is for measuring

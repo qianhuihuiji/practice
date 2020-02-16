@@ -12,9 +12,7 @@
  *
  ******************************************************************************/
 
-package Algorithm.chapter1.code;
-
-import Algorithm.common.StdOut;
+package Algorithm.common;
 
 import java.lang.management.ThreadMXBean;
 import java.lang.management.ManagementFactory;
