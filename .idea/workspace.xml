@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8721e6f3-edc9-4b0b-a9f0-9f65607c47d7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/Insertion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/Selection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/Bubble.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/Shell.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/chapter1/code/Stopwatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/common/Stopwatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/chapter1/code/StopwatchCPU.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/common/StopwatchCPU.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/chapter1/code/ThreeSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/chapter1/code/ThreeSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +24,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/chapter1/code/TestVisualAccumulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="108">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -39,7 +36,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/common/Stopwatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="513">
               <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -51,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="-256">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,12 +60,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Selection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="702">
+            <state relative-caret-position="621">
               <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-              <folding>
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -76,11 +69,39 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Insertion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+            <state relative-caret-position="189">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Shell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="27">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#433#434#0" expanded="true" />
+                <element signature="e#553#554#0" expanded="true" />
+                <element signature="e#594#595#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Bubble.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -88,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/common/StopwatchCPU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
+            <state relative-caret-position="486">
               <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -161,11 +182,13 @@
         <option value="$PROJECT_DIR$/Algorithm/common/StopwatchCPU.java" />
         <option value="$PROJECT_DIR$/Algorithm/chapter2/code/Selection.java" />
         <option value="$PROJECT_DIR$/Algorithm/chapter2/code/Insertion.java" />
+        <option value="$PROJECT_DIR$/Algorithm/chapter2/code/Shell.java" />
+        <option value="$PROJECT_DIR$/Algorithm/chapter2/code/Bubble.java" />
         <option value="$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -214,12 +237,42 @@
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +314,7 @@
     <configuration name="SortCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Algorithm.chapter2.code.SortCompare" />
       <module name="practice" />
-      <option name="PROGRAM_PARAMETERS" value="Insertion Selection 1000 100" />
+      <option name="PROGRAM_PARAMETERS" value="Bubble Insertion 200 10000" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Algorithm.chapter2.code.*" />
@@ -369,7 +422,9 @@
       <workItem from="1580999224301" duration="1881000" />
       <workItem from="1581233184718" duration="1222000" />
       <workItem from="1581305910795" duration="287000" />
-      <workItem from="1581775968921" duration="5212000" />
+      <workItem from="1581775968921" duration="5953000" />
+      <workItem from="1581915541409" duration="1249000" />
+      <workItem from="1581990101369" duration="1707000" />
     </task>
     <task id="LOCAL-00001" summary="add .gitignore">
       <created>1581824769804</created>
@@ -382,13 +437,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24958000" />
+    <option name="totallyTimeSpent" value="28655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.21888413" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49899396" visible="true" weight="0.22460657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -398,7 +453,7 @@
       <window_info id="Favorites" order="7" sideWeight="0.501006" side_tool="true" weight="0.19329074" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51719904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.51666665" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.55896807" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -760,7 +815,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/chapter1/code/TestVisualAccumulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="108">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -768,20 +823,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/common/StopwatchCPU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/common/Stopwatch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
+        <state relative-caret-position="513">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -791,29 +835,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Selection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
+        <state relative-caret-position="621">
           <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/common/StopwatchCPU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
           <folding>
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Shell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#553#554#0" expanded="true" />
+            <element signature="e#594#595#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Bubble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/Insertion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#433#434#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="189">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Algorithm/chapter2/code/SortCompare.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        <state relative-caret-position="-256">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
