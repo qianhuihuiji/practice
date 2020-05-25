@@ -3,7 +3,7 @@ package Leetcode;
 import java.util.HashMap;
 import java.util.Map;
 
-public class OneTwoSum {
+public class One {
     public static void main(String[] args) {
         int [] testArr = {2, 7, 11, 15};
         int target = 9;
