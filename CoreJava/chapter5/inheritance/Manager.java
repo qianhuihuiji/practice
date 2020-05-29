@@ -19,4 +19,9 @@ public class Manager extends Employee{
     {
         this.bonus = bonus;
     }
+
+    public double getBonus()
+    {
+        return bonus;
+    }
 }
