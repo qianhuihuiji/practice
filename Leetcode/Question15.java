@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Fifteen {
+public class Question15 {
     public static void main(String[] args) {
         Integer [] testArr = {-1, 0, 1, 2, -1, -4};
 
