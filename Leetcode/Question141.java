@@ -19,7 +19,7 @@ public class Question141 {
     }
 
     private static boolean hasCycle(ListNode141 head) {
-        if (head.next == null) return false;
+        if (head == null || head.next == null) return false;
 
         ListNode141 slow = head;
         ListNode141 fast = head.next;
