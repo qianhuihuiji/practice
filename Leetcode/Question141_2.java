@@ -8,10 +8,10 @@ import java.util.Set;
  */
 public class Question141_2 {
     public static void main(String[] args) {
-        ListNode141 node1 = new ListNode141(3);
-        ListNode141 node2 = new ListNode141(2);
-        ListNode141 node3 = new ListNode141(0);
-        ListNode141 node4 = new ListNode141(-4);
+        ListNode node1 = new ListNode(3);
+        ListNode node2 = new ListNode(2);
+        ListNode node3 = new ListNode(0);
+        ListNode node4 = new ListNode(-4);
         node1.next = node2;
         node2.next = node3;
         node3.next = node4;
@@ -21,10 +21,10 @@ public class Question141_2 {
         System.out.println(ans);
     }
 
-    private static boolean hasCycle(ListNode141 head) {
+    private static boolean hasCycle(ListNode head) {
         if (head == null || head.next == null) return false;
 
-        Set<ListNode141> lookup = new HashSet<>();
+        Set<ListNode> lookup = new HashSet<>();
         while (head.next != null) {
             if (lookup.contains(head)) {
                 return true;

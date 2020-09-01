@@ -5,30 +5,30 @@ package Leetcode;
  */
 public class Question2 {
     public static void main(String[] args) {
-        ListNode2 node1 = new ListNode2(2);
-        ListNode2 node2 = new ListNode2(4);
-        ListNode2 node3 = new ListNode2(3);
+        ListNode node1 = new ListNode(2);
+        ListNode node2 = new ListNode(4);
+        ListNode node3 = new ListNode(3);
         node1.next = node2;
         node2.next = node3;
 
-        ListNode2 node4 = new ListNode2(5);
-        ListNode2 node5 = new ListNode2(6);
-        ListNode2 node6 = new ListNode2(7);
+        ListNode node4 = new ListNode(5);
+        ListNode node5 = new ListNode(6);
+        ListNode node6 = new ListNode(7);
         node4.next = node5;
         node5.next = node6;
 
-        ListNode2 ans = addTwoNumbers(node1, node4);
+        ListNode ans = addTwoNumbers(node1, node4);
         while (ans != null) {
             System.out.println(ans.val);
             ans = ans.next;
         }
     }
 
-    private static ListNode2 addTwoNumbers(ListNode2 l1, ListNode2 l2) {
+    private static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 == null) return null;
 
-        ListNode2 ans = new ListNode2(-1);
-        ListNode2 head = ans;
+        ListNode ans = new ListNode(-1);
+        ListNode head = ans;
 
         // 是否需要补位
         boolean supply = false;
@@ -62,7 +62,7 @@ public class Question2 {
             ans.val = val;
 
             if (l1 != null || l2 != null || supply) {
-                ans.next = new ListNode2(-1);
+                ans.next = new ListNode(-1);
                 ans = ans.next;
             }
         }
@@ -70,12 +70,4 @@ public class Question2 {
         return head;
     }
 
-}
-
-class ListNode2 {
-    int val;
-    ListNode2 next;
-    ListNode2(int val) {
-       this.val = val;
-   }
 }
