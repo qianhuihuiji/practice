@@ -43,34 +43,11 @@ public class Question160_2 {
         // pA 从 A 链表出发，遍历 A + B 链表
         // pB 从 B 链表出发，遍历 B + A 链表
         // 如果 A、B 相交的话，那么它们一定会相遇，因为它们的尾部相同， A +  B 的尾部自然也相同
-
-        boolean canSwitchA = true;
-        boolean canSwitchB = true;
-
-        while (pA != null && pB != null) {
-            // 如果相等，说明已经相遇
-            if (pA == pB) return pA;
-
-            if (pA.next != null) {
-                pA = pA.next;
-            } else if (canSwitchA) {
-                // 转到 headB
-                pA = headB;
-                canSwitchA = false;
-            } else {
-                pA = null;
-            }
-
-            if (pB.next != null) {
-                pB = pB.next;
-            } else if (canSwitchB) {
-                pB = headA;
-                canSwitchB =false;
-            } else {
-                pB = null;
-            }
+        while (pA != pB) { // 遍历到末尾的时候，如果两个链表不想交，则最后一次循环后：pA = null,pB = null
+            pA = pA != null ? pA.next : headB;
+            pB = pB != null ? pB.next : headA;
         }
 
-        return null;
+        return pA;
     }
 }
