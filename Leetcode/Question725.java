@@ -3,7 +3,7 @@ package Leetcode;
 /**
  * [2] 两数相加
  */
-public class Question775 {
+public class Question725 {
     public static void main(String[] args) {
         ListNode node1 = new ListNode(1);
         ListNode node2 = new ListNode(2);
