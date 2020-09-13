@@ -1,7 +1,7 @@
 package Leetcode;
 
 /**
- * [2] 两数相加
+ * [725] 分隔链表
  */
 public class Question725 {
     public static void main(String[] args) {
