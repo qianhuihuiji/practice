@@ -36,7 +36,7 @@ public class CyclicBarrierSample {
         public void run() {
             try {
                 for (int i=0; i<3 ; i++){
-                    System.out.println("Executed!" + i);
+                    System.out.println(Thread.currentThread().getName() + " Executed!,print:" + i);
                     barrier.await();
                 }
             } catch (BrokenBarrierException e) {
