@@ -9,18 +9,29 @@ import java.util.Map;
 public class Question189 {
     public static void main(String[] args) {
         int[] test = new int[] {1,2,3,1};
-        boolean ans = containsDuplicate(test);
-        System.out.println(ans);
+        rotate(test, 3);
+        for (int val : test) {
+            System.out.println(val);
+        }
     }
 
-    private static boolean containsDuplicate(int[] nums) {
-        Map<Integer, Integer> lookup = new HashMap<>();
-        for (int num : nums) {
-            int count = lookup.getOrDefault(num, 0);
-            lookup.put(num, ++count);
+    private static void rotate(int[] nums, int k) {
+        int[] ans = new int[nums.length];
 
-            if (count > 1) return true;
+        k = k % nums.length;
+
+        int steps = k;
+        for (int i = 0;i < k;i++) {
+            ans[i] = nums[nums.length - steps];
+            steps--;
         }
-        return false;
+
+        int j = 0;
+        while (k < nums.length){
+            ans[k] = nums[j++];
+            k++;
+        }
+
+        System.arraycopy(ans, 0, nums, 0, ans.length);
     }
 }
