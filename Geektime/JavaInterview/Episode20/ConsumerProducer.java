@@ -69,7 +69,7 @@ public class ConsumerProducer {
                 String msg;
                 while (! EXIT_MSG.equalsIgnoreCase((msg = queue.take()))) {
                     System.out.println("Consumed item: " + msg);
-                    Thread.sleep(100L);
+                    Thread.sleep(1000L);
                 }
 
                 System.out.println("Got exit message, bye!");
