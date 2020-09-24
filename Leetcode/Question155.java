@@ -6,7 +6,7 @@ import java.util.LinkedList;
 import java.util.Set;
 
 /**
- * 相交链表
+ * [155] 最小栈
  */
 public class Question155 {
     public static void main(String[] args) {
