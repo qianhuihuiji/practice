@@ -1,49 +1,53 @@
 package Leetcode;
 
-import java.util.Stack;
-
 /**
- * [392] 判断子序列
+ * [718] 最长重复子数组
  */
-public class Question392 {
+public class Question718 {
     public static void main(String[] args) {
         /*
-            示例 1:
-            s = "abc", t = "ahbgdc"
-            返回 true.
+            输入：
+            A: [1,2,3,2,1]
+            B: [3,2,1,4,7]
+            输出：3
+            解释：
+            长度最长的公共子数组是 [3, 2, 1] 。
          */
 
-        String s = "axc";
-        String t = "ahbgdc";
+        int[] a = new int[] {0,0,0,0,0,0,1,0,0,0};
+        int[] b = new int[] {0,0,0,0,0,0,0,1,0,0};
 
-        boolean ans = isSubsequence(s, t);
+        int ans = findLength(a, b);
         System.out.println(ans);
     }
 
-    private static boolean isSubsequence(String s, String t) {
-        char[] ss = s.toCharArray();
-        char[] tt = t.toCharArray();
-        int left = 0;
+    private static int findLength(int[] A, int[] B) {
+        int maxSub = 0;
+        for (int i = 0;i < A.length;i++) {
+            int tmpMax = maxSubLength(A,B,i);
 
-        for (char ch : ss) {
-            int firstPosition = firstPosition(left, tt, ch);
-
-            if (firstPosition < 0) {
-                return false;
-            } else {
-                left = firstPosition + 1;
-            }
+            if (tmpMax > maxSub) maxSub = tmpMax;
         }
 
-        return true;
+        return maxSub;
     }
 
-    private static int firstPosition(int left, char[] chars, char ch) {
-        int length = chars.length;
-        for (int i = left;i < length;i++) {
-            if (ch == chars[i]) return i;
+    private static int maxSubLength(int[] A, int[] B, int index) {
+        int maxSub = 0;
+
+        for (int i = 0;i < B.length;i++) {
+            int tmpJ = index;
+            int tmpI = i;
+            int tmpMax = 0;
+            while (tmpJ < A.length && tmpI < B.length && A[tmpJ] == B[tmpI]) {
+                tmpI++;
+                tmpJ++;
+                tmpMax++;
+            }
+
+            if (tmpMax > maxSub) maxSub = tmpMax;
         }
 
-        return -1;
+        return maxSub;
     }
 }

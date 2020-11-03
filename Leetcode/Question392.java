@@ -1,7 +1,5 @@
 package Leetcode;
 
-import java.util.Stack;
-
 /**
  * [392] 判断子序列
  */
