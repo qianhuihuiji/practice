@@ -1,4 +1,4 @@
-package Refacting.chapter1;
+package Refactoring.chapter1;
 
 abstract class Price {
     abstract int getPriceCode();

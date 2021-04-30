@@ -1,4 +1,4 @@
-package Refacting.chapter1;
+package Refactoring.chapter1;
 
 public class Rental {
     private Movie _movie;
