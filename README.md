@@ -2,6 +2,7 @@
 
 - 《算法》（Algorithm） 
 - 《Java 核心技术 I》（CoreJava）
+- 《Java 核心技术 II》（CoreJava2）
 - 《极客时间学习》
   - 《算法之美》
   - 《Java 面试精讲》
